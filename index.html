@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        
+        <!-- Critical CSS -->
+        <style>
+            body {
+                margin: 0;
+                background-color: #0f1624;
+                color: white;
+                opacity: 0; /* Changed from visibility: hidden */
+                transition: opacity 0.3s ease-in; /* Add smooth transition */
+            }
+            .loading-spinner {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 50px;
+                height: 50px;
+                border: 3px solid rgba(94, 234, 212, 0.3);
+                border-radius: 50%;
+                border-top-color: rgb(94, 234, 212);
+                animation: spin 1s linear infinite;
+                z-index: 9999;
+            }
+            @keyframes spin {
+                to { transform: translate(-50%, -50%) rotate(360deg); }
+            }
+            /* Add this class for when content is loaded */
+            .content-loaded {
+                opacity: 1;
+            }
+        </style>
+
+        <!-- Load CSS with improved handling -->
+        <link 
+            rel="stylesheet" 
+            href="/src/index.css" 
+            media="print" 
+            onload="this.media='all'; document.body.classList.add('content-loaded'); document.querySelector('.loading-spinner').style.display='none';"
+        >
+        <noscript>
+            <link rel="stylesheet" href="/src/index.css">
+        </noscript>
+
+        <title>Nagaraju</title>
+    </head>
+    <body>
+        <div class="loading-spinner"></div>
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+        <!-- Fallback for loader removal -->
+        <script>
+            // Remove loader if it's still visible after 5 seconds
+            setTimeout(() => {
+                document.body.classList.add('content-loaded');
+                const loader = document.querySelector('.loading-spinner');
+                if (loader) loader.style.display = 'none';
+            }, 5000);
+        </script>
+    </body>
+</html>
