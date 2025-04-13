@@ -21,22 +21,39 @@ A modern, responsive portfolio website built with React, TypeScript, and Vite. I
 - **Responsive Images**: Optimized image loading with different sizes for various devices
 - **Performance Optimized**: Advanced build optimizations and code splitting
 - **Interactive UI**: Custom animations and smooth transitions
+- **Contact Form**: Server-less email functionality using EmailJS
 - **Accessibility**: Built with a focus on web accessibility standards
 
 ## 🛠️ Built With
 
 ### Core Technologies
+
 - **React 19**: Latest version with improved performance
 - **TypeScript**: For type safety and better developer experience
 - **Vite**: Fast, modern build tool and development server
 - **Tailwind CSS 4**: Utility-first CSS framework
 
 ### Optimization Tools
+
 - **vite-plugin-imagemin**: Image optimization
 - **Code Splitting**: Optimized chunk management
 - **Source Maps**: Enabled for production debugging
 
+### Contact Form
+
+- **EmailJS**: Server-less email sending directly from the client-side
+    - Handles form validation and submission
+    - Provides user feedback for success/error states
+    - Gracefully handles configuration issues
+    - Environment variables in `.env` file:
+        ```
+        VITE_EMAILJS_PUBLIC_KEY=your_public_key_here
+        VITE_EMAILJS_SERVICE_ID=your_service_id_here
+        VITE_EMAILJS_TEMPLATE_ID=your_template_id_here
+        ```
+
 ### Development Tools
+
 - **ESLint**: Code quality and consistency
 - **Prettier**: Code formatting
 - **TypeScript ESLint**: Type-aware linting
