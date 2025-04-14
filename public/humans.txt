@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+    Developer: Nagaraju Kasarla
+    Contact: nagarajukasarla79@gmail.com
+    LinkedIn: https://www.linkedin.com/in/nagaraju-kasarla-645697232
+    GitHub: https://github.com/Nagarajukasarla
+    From: India
+
+# THANKS
+    To all open source contributors whose work made this possible
+
+# TECHNOLOGY COLOPHON
+    Last update: April 14, 2025 (2025/04/14)
+    Language: English
+    Standards: HTML5, CSS3, JavaScript
+    Components: React, TypeScript, TailwindCSS
+    Software: Vite, EmailJS

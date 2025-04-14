@@ -1,0 +1,9 @@
+# Security.txt file for https://nagarajukasarla.live
+# More info: https://securitytxt.org/
+
+Contact: mailto:nagarajukasarla79@gmail.com
+# Expiration date is set to April 14, 2026
+Expires: 2026-04-14T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://nagarajukasarla.live/.well-known/security.txt
+Policy: https://nagarajukasarla.live/security-policy

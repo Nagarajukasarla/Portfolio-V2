@@ -1,10 +1,158 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-US" dir="ltr">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <!-- Performance optimizations -->
+        <link
+            rel="preconnect"
+            href="https://fonts.googleapis.com"
+            crossorigin
+        />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
+
+        <!-- Basic SEO Meta Tags -->
+        <title>Nagaraju Kasarla - Full Stack Developer</title>
+        <meta
+            name="description"
+            content="Official website of Nagaraju Kasarla. Full Stack Developer specializing in React, TypeScript, Java, Spring Boot, and mobile app development."
+        />
+        <meta
+            name="keywords"
+            content="Nagaraju Kasarla, Full Stack Developer, React Developer, TypeScript Developer, Java Developer, Spring Boot Developer, Spring Security Developer, Android Developer, iOS Developer, Web Development, Frontend Developer, Backend Developer"
+        />
+        <meta name="author" content="Nagaraju Kasarla" />
+        <meta name="robots" content="index, follow" />
+        <meta
+            name="googlebot"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta
+            name="bingbot"
+            content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
+        />
+        <meta name="language" content="English" />
+        <meta name="revisit-after" content="7 days" />
+        <meta name="rating" content="general" />
+        <link rel="author" href="/humans.txt" />
+        <link rel="me" href="https://github.com/Nagarajukasarla" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#0f1624" />
+
+        <!-- Open Graph Meta Tags for Social Media -->
+        <meta
+            property="og:title"
+            content="Nagaraju Kasarla - Full Stack Developer"
+        />
+        <meta
+            property="og:description"
+            content="Full Stack Developer specializing in React, TypeScript, Java, Spring Boot, and mobile app development"
+        />
+        <meta
+            property="og:image"
+            content="https://nagarajukasarla.live/favicon.png"
+        />
+        <meta property="og:url" content="https://nagarajukasarla.live" />
+        <link rel="canonical" href="https://nagarajukasarla.live" />
+        <meta property="og:type" content="website" />
+
+        <!-- Twitter Card Meta Tags -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+            name="twitter:title"
+            content="Nagaraju Kasarla - Full Stack Developer"
+        />
+        <meta
+            name="twitter:description"
+            content="Full Stack Developer specializing in React, TypeScript, Java, Spring Boot, and mobile app development"
+        />
+        <meta
+            name="twitter:image"
+            content="https://nagarajukasarla.live/favicon.png"
+        />
+
+        <!-- JSON-LD Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Nagaraju Kasarla",
+                "url": "https://nagarajukasarla.live",
+                "image": "https://nagarajukasarla.live/favicon.png",
+                "sameAs": [
+                    "https://www.linkedin.com/in/nagaraju-kasarla-645697232",
+                    "https://github.com/Nagarajukasarla"
+                ],
+                "jobTitle": "Full Stack Developer",
+                "description": "Full Stack Developer specializing in React, TypeScript, Java, Spring Boot, and mobile app development",
+                "knowsAbout": [
+                    "React",
+                    "TypeScript",
+                    "JavaScript",
+                    "Java",
+                    "Spring Boot",
+                    "Spring Security",
+                    "Android Development",
+                    "iOS Development",
+                    "Web Development",
+                    "Frontend Development",
+                    "Backend Development"
+                ],
+                "skills": "React, TypeScript, JavaScript, Java, Spring Boot, Spring Security, Android Development, iOS Development, Web Development, Frontend Development, Backend Development",
+                "alumniOf": {
+                    "@type": "EducationalOrganization",
+                    "name": "Your University"
+                },
+                "nationality": "Indian",
+                "mainEntityOfPage": {
+                    "@type": "WebPage",
+                    "@id": "https://nagarajukasarla.live"
+                }
+            }
+        </script>
+
+        <!-- WebSite Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "WebSite",
+                "name": "Nagaraju Kasarla - Full Stack Developer",
+                "url": "https://nagarajukasarla.live",
+                "description": "Official website of Nagaraju Kasarla. Full Stack Developer specializing in React, TypeScript, Java, Spring Boot, and mobile app development.",
+                "potentialAction": {
+                    "@type": "SearchAction",
+                    "target": "https://nagarajukasarla.live/?s={search_term_string}",
+                    "query-input": "required name=search_term_string"
+                }
+            }
+        </script>
+
+        <!-- BreadcrumbList Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://nagarajukasarla.live"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "Projects",
+                        "item": "https://nagarajukasarla.live/all-projects"
+                    }
+                ]
+            }
+        </script>
+
         <!-- Critical CSS -->
         <style>
             body {
@@ -28,7 +176,9 @@
                 z-index: 9999;
             }
             @keyframes spin {
-                to { transform: translate(-50%, -50%) rotate(360deg); }
+                to {
+                    transform: translate(-50%, -50%) rotate(360deg);
+                }
             }
             /* Add this class for when content is loaded */
             .content-loaded {
@@ -37,17 +187,17 @@
         </style>
 
         <!-- Load CSS with improved handling -->
-        <link 
-            rel="stylesheet" 
-            href="/src/index.css" 
-            media="print" 
+        <link
+            rel="stylesheet"
+            href="/src/index.css"
+            media="print"
             onload="this.media='all'; document.body.classList.add('content-loaded'); document.querySelector('.loading-spinner').style.display='none';"
-        >
+        />
         <noscript>
-            <link rel="stylesheet" href="/src/index.css">
+            <link rel="stylesheet" href="/src/index.css" />
         </noscript>
 
-        <title>Nagaraju</title>
+        <!-- Title is defined in the SEO meta tags section above -->
     </head>
     <body>
         <div class="loading-spinner"></div>
@@ -57,9 +207,9 @@
         <script>
             // Remove loader if it's still visible after 5 seconds
             setTimeout(() => {
-                document.body.classList.add('content-loaded');
-                const loader = document.querySelector('.loading-spinner');
-                if (loader) loader.style.display = 'none';
+                document.body.classList.add("content-loaded");
+                const loader = document.querySelector(".loading-spinner");
+                if (loader) loader.style.display = "none";
             }, 5000);
         </script>
     </body>
