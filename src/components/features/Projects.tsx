@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
                     ))}
                 </div>
 
-                <div className="mt-10">
+                <div className="mt-10 flex justify-start ml-2">
                     <button
                         onClick={() => navigateTo('all-projects')}
                         className="group inline-flex items-center text-white-100 font-bold text-lg hover:text-teal-300 transition-colors duration-200 border-b border-transparent hover:border-teal-300"
