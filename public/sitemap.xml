@@ -6,7 +6,7 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
         http://www.google.com/schemas/sitemap-image/1.1
-        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap  -image.xsd">
   <!-- Homepage -->
   <url>
     <loc>https://nagarajukasarla.live/</loc>
@@ -15,7 +15,7 @@
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://nagarajukasarla.live/favicon.png</image:loc>
+      <image:loc>https://nagarajukasarla.live/nagarajukasarla-logo.png</image:loc>
       <image:title>Nagaraju Kasarla - Full Stack Developer</image:title>
       <image:caption>Profile picture of Nagaraju Kasarla</image:caption>
     </image:image>
@@ -29,7 +29,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
-      <image:loc>https://nagarajukasarla.live/favicon.png</image:loc>
+      <image:loc>https://nagarajukasarla.live/nagarajukasarla-logo.png</image:loc>
       <image:title>Nagaraju Kasarla - Projects</image:title>
       <image:caption>Portfolio projects by Nagaraju Kasarla</image:caption>
     </image:image>
