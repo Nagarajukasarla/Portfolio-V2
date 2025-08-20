@@ -1,7 +1,7 @@
 # Weather Dashboard
 [[redirects]]
   from = "*"
-  to = "https://weather-dashboards.netlify.app/:splat"
+  to = "https://weather-dashboards.netlify.app"
   status = 200
   force = true
 
@@ -12,7 +12,7 @@
   # status = 200
   # force = true
 
-# Example: Todo App
+# Example: Todo App 
 #[[redirects]]
   # from = "/apps/todo-app/*"
   # to = "https://your-todo-app.netlify.app/:splat"
