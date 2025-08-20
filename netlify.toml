@@ -1,6 +1,6 @@
 # Weather Dashboard
 [[redirects]]
-  from = "/all-projects/apps/weather-dashboard/*"
+  from = "*"
   to = "https://weather-dashboards.netlify.app/:splat"
   status = 200
   force = true
