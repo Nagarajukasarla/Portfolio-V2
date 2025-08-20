@@ -125,7 +125,7 @@ export const PROJECTS = [
             "PostgreSQL",
         ],
         // link: "https://github.com/Nagarajukasarla/BBA",
-        link: "/apps/weather-dashboard",
+        link: "/weather-dashboard",
         year: 2022,
     },
     {
