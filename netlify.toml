@@ -1,13 +1,6 @@
 # Proxy the whole weather-dashboard app
 [[redirects]]
-  from = "/weather-dashboard/*"
-  to = "https://weather-dashboard.netlify.app/:splat"
-  status = 200
-  force = true
-
-# Extra proxy for assets (because base="/")
-[[redirects]]
-  from = "/assets/*"
-  to = "https://weather-dashboard.netlify.app/assets/:splat"
+  from = "/all-projects"
+  to = "/"
   status = 200
   force = true
