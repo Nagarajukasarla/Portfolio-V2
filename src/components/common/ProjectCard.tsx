@@ -65,8 +65,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             return (
                 <a
                     href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="block group"
                 >
                     {children}
