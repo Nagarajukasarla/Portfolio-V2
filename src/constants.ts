@@ -124,7 +124,8 @@ export const PROJECTS = [
             "Spring Boot",
             "PostgreSQL",
         ],
-        link: "https://github.com/Nagarajukasarla/BBA",
+        // link: "https://github.com/Nagarajukasarla/BBA",
+        link: "/apps/weather-dashboard",
         year: 2022,
     },
     {
