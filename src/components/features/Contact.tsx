@@ -2,6 +2,7 @@ import React from "react";
 import GradientButton from "../common/GradientButton";
 import { useIsSticky } from "@/hooks/useIsSticky";
 import { useEmailForm } from "@/hooks/useEmailForm";
+import { MyInfo } from "@/constants";
 
 const Contact: React.FC = () => {
     const { isSticky, headerRef } = useIsSticky();
@@ -43,10 +44,10 @@ const Contact: React.FC = () => {
                                 GET IN TOUCH
                             </h4>
                             <a
-                                href="mailto:xyz@gmail.com"
+                                href={`mailto:${MyInfo.EMAIL}`}
                                 className="text-blue-400 hover:text-blue-500 hover:underline transition-colors text-lg"
                             >
-                                nagarajukasarla79@gmail.com
+                                {MyInfo.EMAIL}
                             </a>
                         </div>
 
@@ -58,7 +59,7 @@ const Contact: React.FC = () => {
                                 </h5>
                                 <div className="flex gap-4">
                                     <a
-                                        href="https://t.me/nagarajukasarla"
+                                        href={MyInfo.TELEGRAM}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-gray-400 hover:text-white transition-colors"
@@ -73,7 +74,7 @@ const Contact: React.FC = () => {
                                         </svg>
                                     </a>
                                     <a
-                                        href="https://www.linkedin.com/in/nagaraju-kasarla-645697232"
+                                        href={MyInfo.LINKEDIN}
                                         className="text-gray-400 hover:text-white transition-colors"
                                     >
                                         <svg
@@ -86,7 +87,7 @@ const Contact: React.FC = () => {
                                         </svg>
                                     </a>
                                     <a
-                                        href="https://github.com/Nagarajukasarla"
+                                        href={MyInfo.GITHUB}
                                         className="text-gray-400 hover:text-white transition-colors"
                                     >
                                         <svg
@@ -115,10 +116,10 @@ const Contact: React.FC = () => {
                                     due to high demand. Please contact me
                                     directly via email at{" "}
                                     <a
-                                        href="mailto:nagarajukasarla79@gmail.com"
+                                        href={`mailto:${MyInfo.EMAIL}`}
                                         className="text-blue-400 hover:underline"
                                     >
-                                        nagarajukasarla79@gmail.com
+                                        {MyInfo.EMAIL}
                                     </a>
                                     .
                                 </p>

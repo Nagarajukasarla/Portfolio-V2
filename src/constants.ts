@@ -1,3 +1,12 @@
+export const MyInfo = {
+    NAME: "Nagaraju Kasarla",
+    EMAIL: "nagarajukasarla79@gmail.com",
+    ADDRESS: "Hyderabad, Telangana, India",
+    LINKEDIN: "https://www.linkedin.com/in/nagaraju-kasarla-645697232",
+    GITHUB: "https://github.com/Nagarajukasarla",
+    TELEGRAM: "https://t.me/nagarajukasarla",
+}
+
 export const SERVICES = [
     {
         title: "Web Development",
