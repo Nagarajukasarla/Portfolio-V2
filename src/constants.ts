@@ -49,6 +49,19 @@ export const SERVICES = [
 export const PROJECTS = [
     {
         image: {
+            small: "https://raw.githubusercontent.com/Nagarajukasarla/weather-dashboard/master/src/assets/screenshots/Mapview.png",
+            medium: "https://raw.githubusercontent.com/Nagarajukasarla/weather-dashboard/master/src/assets/screenshots/Mapview.png",
+            large: "https://raw.githubusercontent.com/Nagarajukasarla/weather-dashboard/master/src/assets/screenshots/Mapview.png",
+            default: "https://raw.githubusercontent.com/Nagarajukasarla/weather-dashboard/master/src/assets/screenshots/Mapview.png",
+        },
+        title: "Weather Dashboard",
+        description: "The Weather Dashboard is an interactive web application that makes exploring weather data intuitive and visual. With map-based controls and insightful charts, you can analyze weather conditions tailored to your region of interest.",
+        tags: ["React", "TypeScript", "Recharts & Nivo", "Tailwind CSS", "OpenWeatherMap API"],
+        link: "https://weather-dashboard.nagarajukasarla.live",
+        year: 2025,
+    },
+    {
+        image: {
             small: "https://raw.githubusercontent.com/Nagarajukasarla/UrbanAccess-admin/master/client/src/assets/img/screenshots/home.jpeg",
             medium: "https://raw.githubusercontent.com/Nagarajukasarla/UrbanAccess-admin/master/client/src/assets/img/screenshots/home.jpeg",
             large: "https://raw.githubusercontent.com/Nagarajukasarla/UrbanAccess-admin/master/client/src/assets/img/screenshots/home.jpeg",
