@@ -18,13 +18,13 @@ export const SERVICES = [
         title: "Backend Development",
         description:
             "I build secure and scalable backend systems focused on clean architecture, well-structured and robust authentication. My code is maintainable, performance-driven, and built to ensure stability and reliability across modern applications.",
-        tags: ["Java", "Spring Boot", "Spring Security"],
+        tags: ["Node.js", "Java", "Spring Boot"],
     },
     {
         title: "Database Design",
         description:
             "I design and optimize reliable database systems with a focus on clean schema architecture, secure data flow, and high performance. My goal is to ensure data is structured, accessible, and scalable to meet evolving application demands.",
-        tags: ["MongoDB", "PostgreSQL", "SQL"],
+        tags: ["MongoDB", "PostgreSQL", "MySQL"],
     },
     {
         title: "API Development",
@@ -36,13 +36,13 @@ export const SERVICES = [
         title: "Mobile Development",
         description:
             "I build cross-platform mobile applications with a focus on smooth performance, intuitive UI, and native-like experiences,designed to run seamlessly across both Android and iOS devices.",
-        tags: ["React Native", "iOS", "Android"],
+        tags: ["React Native", "Android"],
     },
     {
         title: "Deployment",
         description:
             "I streamline deployment processes with version control, CI/CD pipelines, and cloud platforms to ensure smooth, reliable, and scalable application delivery.",
-        tags: ["GitHub", "CI/CD", "Cloud"],
+        tags: ["Github Actions", "CI/CD", "Google Cloud"],
     },
 ];
 

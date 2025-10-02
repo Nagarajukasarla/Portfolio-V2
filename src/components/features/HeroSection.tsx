@@ -28,7 +28,7 @@ const HeroSection = () => {
                                 Full Stack Developer
                             </span>{" "}
                             <br />
-                            Bringing digital visions to life through performance driven, 
+                            Bringing digital visions to life through performance driven,
                             <br className="hidden sm:block" />
                             beautifully designed solutions
                         </p>
@@ -49,96 +49,31 @@ const HeroSection = () => {
 
                     {/* Right side - Description */}
                     <div className="w-full lg:w-1/2 space-y-6">
-                        {/* Professional summary */}
-                        <p className="text-gray-300 text-sm sm:text-base">
-                            I'm a passionate{" "}
-                            <span className="text-white/90 font-semibold">
-                                Full Stack Developer
-                            </span>{" "}
-                            who loves building polished, high-performance
-                            applications that solve real-world problems. My
-                            expertise spans modern frontend technologies like{" "}
-                            <span className="text-white/90 font-semibold">
-                                React
-                            </span>{" "}
-                            <span className="text-white/90 font-semibold">
-                                TypeScript{" "}
-                            </span>
-                            with{" "}
-                            <span className="text-white/90 font-semibold">
-                                TailwindCSS
-                            </span>{" "}
-                            and robust backend systems powered by{" "}
-                            <span className="text-white/90 font-semibold">
-                                Java, Spring Boot,{" "}
-                            </span>
-                            and{" "}
-                            <span className="text-white/90 font-semibold">
-                                Spring Security.{" "}
-                            </span>
-                            I'm also capable of building cross-platform{" "}
-                            <span className="text-white/90 font-semibold">
-                                Android
-                            </span>{" "}
-                            and{" "}
-                            <span className="text-white/90 font-semibold">
-                                iOS apps
-                            </span>{" "}
-                            <i>because sometimes the web just isn't enough! </i>
-                        </p>
-
-                        {/* Experience highlight */}
-                        <p className="text-gray-300 text-sm sm:text-base">
-                            Over the past year, I've contributed to a variety of
-                            impactful projects from designing{" "}
-                            <span className="text-white/90 font-semibold">
-                                scalable admin platforms
-                            </span>{" "}
-                            to implementing{" "}
-                            <span className="text-white/90 font-semibold">
-                                highly secure authentication systems
-                            </span>{" "}
-                            that keep user data locked up tighter than your
-                            favorite snack in the office fridge.
-                        </p>
-
-                        {/* Personal approach */}
-                        <p className="text-gray-300 text-sm sm:text-base">
-                            I thrive where clean design meets smart engineering,
-                            and I find{" "}
-                            <span className="text-white/90 font-semibold">
-                                real joy
-                            </span>{" "}
-                            in{" "}
-                            <span className="text-white/90 font-semibold">
-                                turning business requirements{" "}
-                            </span>
-                            into{" "}
-                            <span className="text-white/90 font-semibold">
-                                beautiful, functional software
-                            </span>
-                            . Whether it's a{" "}
-                            <span className="text-white/90 font-semibold">
-                                blazing-fast dashboard
-                            </span>{" "}
-                            or a{" "}
-                            <span className="text-white/90 font-semibold">
-                                mobile app
-                            </span>{" "}
-                            that just works, I aim to{" "}
-                            <span className="text-white/90 font-semibold">
-                                deliver work that feels smooth, looks great{" "}
-                            </span>
-                            and is built to last.
-                        </p>
-
-                        {/* Call to action */}
-                        <p className="text-white font-semibold text-sm sm:text-base">
-                            I'm currently open to new opportunities and would
-                            love to help build your next product designed
-                            thoughtfully, developed professionally, and
-                            delivered with care.
-                        </p>
+                        {/* Short, direct highlights */}
+                        <div className="space-y-4">
+                            <div className="space-y-4">
+                                <p className="text-white/90 font-semibold text-lg">
+                                    Full Stack Developer | Enterprise Solutions Architect
+                                </p>
+                                <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
+                                    Crafting high-performance applications with React, TypeScript, Node.js and Spring Boot.
+                                    I specialize in building scalable platforms and secure authentication systems
+                                    that deliver exceptional user experiences.
+                                </p>
+                                <div className="flex flex-wrap gap-2 text-sm sm:text-base">
+                                    <span className="bg-white/10 px-3 py-1.5 rounded text-blue-300 font-medium">React</span>
+                                    <span className="bg-white/10 px-3 py-1.5 rounded text-blue-300 font-medium">TypeScript</span>
+                                    <span className="bg-white/10 px-3 py-1.5 rounded text-green-300 font-medium">Node.js</span>
+                                    <span className="bg-white/10 px-3 py-1.5 rounded text-green-300 font-medium">Spring Boot</span>
+                                    <span className="bg-white/10 px-3 py-1.5 rounded text-green-300 font-medium">Java</span>
+                                </div>
+                            </div>
+                            <ul className="list-disc ml-5 text-gray-300 text-sm sm:text-base space-y-1">
+                                <li>Specialized in dashboards, authentication, and scalable platforms</li>
+                                <li>Delivering smooth, secure, and modern digital products</li>
+                                <li>Open to new opportunities & collaborations</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
