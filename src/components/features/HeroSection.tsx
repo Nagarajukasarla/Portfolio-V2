@@ -53,7 +53,8 @@ const HeroSection = () => {
                         <div className="space-y-4">
                             <div className="space-y-4">
                                 <p className="text-white/90 font-semibold text-lg">
-                                    Full Stack Developer | Enterprise Solutions Architect
+                                            Full Stack Developer | Building fast, beautiful web & mobile apps
+
                                 </p>
                                 <p className="text-gray-300 text-sm sm:text-base leading-relaxed">
                                     Crafting high-performance applications with React, TypeScript, Node.js and Spring Boot.
